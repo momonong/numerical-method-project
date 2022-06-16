@@ -9,8 +9,8 @@ from keras.models import load_model
 import cv2
 from tensorflow.python.keras.backend import constant
 
-WINDOWSIZEX = 250
-WINDOWSIZEY = 250
+WINDOWSIZEX = 640
+WINDOWSIZEY = 480
 BOUNDRYINC = 5
 
 WHITE = (255, 255, 255)
